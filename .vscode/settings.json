@@ -1,0 +1,13 @@
+{
+	"files.watcherExclude": {
+		"**/.eve/dev-runtime/snapshots/**": true,
+		"**/.eve/nitro/**": true
+	},
+	"search.exclude": {
+		"**/.eve/dev-runtime/snapshots/**": true,
+		"**/.eve/nitro/**": true
+	},
+	"typescript.tsserver.watchOptions": {
+		"excludeDirectories": ["**/.eve/dev-runtime/snapshots", "**/.eve/nitro"]
+	}
+}

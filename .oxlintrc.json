@@ -1,0 +1,4 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"ignorePatterns": [".eve/**", ".next/**", ".nitro/**", ".output/**", ".vercel/**", ".workflow-data/**", "dist/**"]
+}
